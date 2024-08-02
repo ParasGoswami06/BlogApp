@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: gilroy;
+}
+body{
+  overflow-x: hidden;
+  background:linear-gradient(to top right,rgba(165, 165, 165, 0.397),rgba(104, 104, 104, 0.699),rgba(196, 196, 196, 0.63));
+}
+#parent{
+  box-shadow:10px 10px 5px -5px rgb(105, 105, 105);
+}
+
+::-webkit-scrollbar{
+  color: red;
+  width: 8px;
+  height: 300px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(31, 31, 31);
+}
+::-webkit-scrollbar-thumb::after{
+  border-radius: 50%;
+}
+::-webkit-scrollbar-thumb::before{
+  border-radius: 50%;
+}
